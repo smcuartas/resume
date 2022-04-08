@@ -1,0 +1,42 @@
+{
+    "languages-title" : "Languages",
+    "languages" : ["English - Basic (Listening/Speaking)", "English - Medium (Written/Reading)", "Spanish - Native"],
+    "skills-title" : "Skills",
+    "skills" : ["HTML5", "CSS3", "JavaScript", "Styled Components", "ReactJS", "Responsive", "WordPress", "Elementor", "Crocoblock Suite", "Figma", "Adobe Illustrator", "Adobe Photoshop"],
+    "about-title" : "About me",
+    "about-me" : "Hello! I’m passionate about design since I was a little kid. I’m active, responsable and I always keep my eyes on small details. I’ve been working with Wordpress for 3+ years making responsive websites using visual editors like Elementor, WPBakery and Gutemberg. Sometimes, I’ve created shortcodes or I’ve modified little things from templates, but now I’m starting with React JS.",
+    "about-me-2" : "I love illustrating, MMORPG videogames, music and tattoos. Also I spend my free time studying.",
+    "experience-title" : "experience",
+    "experience" : [
+        {
+            "position" : "Web Designer & UI Dev",
+            "company" : "@Freelance",
+            "date" : "January 2017 - Present",
+            "description" : "Design & UI development using WordPress templates, CSS and JavaScript."
+          },
+      
+          {
+            "position" : "Web Designer & UI Dev",
+            "company" : "@LWA Marketing Digital",
+            "date" : "January 2019 - December 2020",
+            "description" : "Design & UI development using WordPress templates, grid/flex CSS, JavaScript and PHP (basic). I’ve made adjustements to websites like Colanta, Argos, Mayorca Mall Center, Flamingo, and other ones."
+          },
+      
+          {
+            "position" : "Web Designer",
+            "company" : "@Interficto",
+            "date" : "July 2018 - October 2018",
+            "description" : "Website developments using WordPress templates, CSS and JavaScript. I’ve made e-commerce websites using WooCommerce, and migrations with cPanel and WHM."
+          },
+      
+          {
+            "position" : "Multimedia Producer",
+            "company" : "@SENA",
+            "date" : "December 2017 - June 2018",
+            "description" : "Frontend support in projects. Design & development on websites with HTML, CSS, jQuery, PHP and some libraries like Semantic UI. Character design and basic animations with Toonboom, Adobe Illustrator and Photoshop."
+          }
+    ],
+    "download-text" : "Are you interested on me?",
+    "download-button": "Download resume in PDF",
+    "social-title" : "Social" 
+}
