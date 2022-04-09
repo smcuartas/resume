@@ -1,6 +1,7 @@
 import * as S from './styled-header'
 
-function Header({title, position, mobile, email}){
+function Header({title, position}){
+
     return(
         <S.Header>
             <S.HeaderCol>
@@ -9,8 +10,9 @@ function Header({title, position, mobile, email}){
             </S.HeaderCol>
 
             <S.HeaderCol className="align-right">
-                <p>Mobile: {mobile}</p>
-                <p>Email: {email}</p>
+                <p>Mobile: <a href='https://wa.me/573046016382' target="_blank">(+57) 304 601 6382</a></p>
+
+                <p>Email: <a href="mailto:santiagomejc@gmail.com">santiagomejc@gmail.com</a></p>
             </S.HeaderCol>
         </S.Header>
     )

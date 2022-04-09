@@ -18,4 +18,8 @@ export const Position = styled.p`
 
 export const HeaderCol = styled.div`
     margin:auto 0;
+
+    & a{
+        color:#D9DDFF;
+    }
 `

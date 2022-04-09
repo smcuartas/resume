@@ -25,10 +25,14 @@ export const selectLanguage = styled.div`
         width:12px;
     }
 
-    & .activeLanguage{
-        background: -webkit-linear-gradient(180deg, #D9DDFF, #FAC0D1);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight:bold;
+    & span{
+        color:#D9DDFF;
+        font-weight:500;
+        transition-duration:.3s;
+    }
+
+    & .activeLanguage,
+    & span:hover{
+        color: #7d7d7d;
     }
 ` 

@@ -9,34 +9,38 @@
     "experience-title" : "Experiencia",
     "experience" : [
         {
-            "position" : "Diseñador Web & UI Dev",
-            "company" : "@Freelance",
-            "date" : "Enero 2017 - Actualidad",
-            "description" : "Diseño y desarrollo de interfaces usando WordPress, CSS y JavaScript."
-          },
+          "id" : "exp1",  
+          "position" : "Diseñador Web & UI Dev",
+          "company" : "@Freelance",
+          "date" : "Enero 2017 - Actualidad",
+          "description" : "Diseño y desarrollo de interfaces usando WordPress, CSS y JavaScript."
+        },
       
-          {
-            "position" : "Diseñador Web & UI Dev",
-            "company" : "@LWA Marketing Digital",
-            "date" : "Enero 2019 - Diciembre 2020",
-            "description" : "Diseño y desarollo de interfaces usando WordPress, CSS grid/flex, JavaScript y PHP (básico). Hice ajustes a sitios web como Colanta, Argos, Mayorca Centro Comercial, Flamingo, entre otros."
-          },
+        {
+          "id" : "exp2",
+          "position" : "Diseñador Web & UI Dev",
+          "company" : "@LWA Marketing Digital",
+          "date" : "Enero 2019 - Diciembre 2020",
+          "description" : "Diseño y desarollo de interfaces usando WordPress, CSS grid/flex, JavaScript y PHP (básico). Realicé ajustes a sitios web como Colanta, Argos, Mayorca Centro Comercial, Flamingo, entre otros."
+        },
       
-          {
-            "position" : "Diseñador Web",
-            "company" : "@Interficto",
-            "date" : "Julio 2018 - Octubre 2018",
-            "description" : "Desarrollo de sitios web usando WordPress, CSS y Javascript. Realicé sitios e-commerce usando WooCommerce, y migraciones con cPanel y WHM."
-          },
+        {
+          "id" : "exp3",
+          "position" : "Diseñador Web",
+          "company" : "@Interficto",
+          "date" : "Julio 2018 - Octubre 2018",
+          "description" : "Desarrollo de sitios web usando WordPress, CSS y Javascript. Realicé sitios e-commerce usando WooCommerce, y migraciones con cPanel y WHM."
+        },
       
-          {
-            "position" : "Productor de Multimedia",
-            "company" : "@SENA",
-            "date" : "Diciembre 2017 - Junio 2018",
-            "description" : "Soporte frontend en proyectos. Diseño y desarrollo de sitios con HTML, CSS, jQuery, PHP y algunas librerías como Semantic UI. Diseño de personajes y animaciones básicas con Toonboom, Adobe Illustrator y Photoshop."
-          }
+        {
+          "id" : "exp4",
+          "position" : "Productor de Multimedia",
+          "company" : "@SENA",
+          "date" : "Diciembre 2017 - Junio 2018",
+          "description" : "Soporte frontend en proyectos. Diseño y desarrollo de sitios con HTML, CSS, jQuery, PHP y algunas librerías como Semantic UI. Diseño de personajes y animaciones básicas con Toonboom, Adobe Illustrator y Photoshop."
+        }
     ],
-    "download-text" : "¿Estás interesado en mí?",
-    "download-button": "Descargar CV en PDF",
+    "download-text" : "Descargas",
+    "download-button": "Resumen en PDF",
     "social-title" : "Social" 
 }

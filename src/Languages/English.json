@@ -9,34 +9,34 @@
     "experience-title" : "experience",
     "experience" : [
         {
-            "position" : "Web Designer & UI Dev",
-            "company" : "@Freelance",
-            "date" : "January 2017 - Present",
-            "description" : "Design & UI development using WordPress templates, CSS and JavaScript."
-          },
+          "position" : "Web Designer & UI Dev",
+          "company" : "@Freelance",
+          "date" : "January 2017 - Present",
+          "description" : "Design & UI development using WordPress templates, CSS and JavaScript."
+        },
       
-          {
-            "position" : "Web Designer & UI Dev",
-            "company" : "@LWA Marketing Digital",
-            "date" : "January 2019 - December 2020",
-            "description" : "Design & UI development using WordPress templates, grid/flex CSS, JavaScript and PHP (basic). I’ve made adjustements to websites like Colanta, Argos, Mayorca Mall Center, Flamingo, and other ones."
-          },
+        {
+          "position" : "Web Designer & UI Dev",
+          "company" : "@LWA Marketing Digital",
+          "date" : "January 2019 - December 2020",
+          "description" : "Design & UI development using WordPress templates, grid/flex CSS, JavaScript and PHP (basic). I’ve made adjustements to websites like Colanta, Argos, Mayorca Mall Center, Flamingo, and other ones."
+        },
       
-          {
-            "position" : "Web Designer",
-            "company" : "@Interficto",
-            "date" : "July 2018 - October 2018",
-            "description" : "Website developments using WordPress templates, CSS and JavaScript. I’ve made e-commerce websites using WooCommerce, and migrations with cPanel and WHM."
-          },
+        {
+          "position" : "Web Designer",
+          "company" : "@Interficto",
+          "date" : "July 2018 - October 2018",
+          "description" : "Website developments using WordPress templates, CSS and JavaScript. I’ve made e-commerce websites using WooCommerce, and migrations with cPanel and WHM."
+        },
       
-          {
-            "position" : "Multimedia Producer",
-            "company" : "@SENA",
-            "date" : "December 2017 - June 2018",
-            "description" : "Frontend support in projects. Design & development on websites with HTML, CSS, jQuery, PHP and some libraries like Semantic UI. Character design and basic animations with Toonboom, Adobe Illustrator and Photoshop."
-          }
+        {
+          "position" : "Multimedia Producer",
+          "company" : "@SENA",
+          "date" : "December 2017 - June 2018",
+          "description" : "Frontend support in projects. Design & development on websites with HTML, CSS, jQuery, PHP and some libraries like Semantic UI. Character design and basic animations with Toonboom, Adobe Illustrator and Photoshop."
+        }
     ],
-    "download-text" : "Are you interested on me?",
-    "download-button": "Download resume in PDF",
+    "download-text" : "Downloads",
+    "download-button": "Resume in PDF",
     "social-title" : "Social" 
 }

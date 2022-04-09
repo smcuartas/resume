@@ -13,9 +13,9 @@ function OptionsBar({language, setLanguage}){
     return(
         <S.OptionBar>
             <S.selectLanguage>
-                <span onClick={language ? '' : turnLanguage} className={language ? "activeLanguage" : ""}>{language ? 'English' : 'Inglés'}</span>
+                <span onClick={language ? null : turnLanguage} className={language ? "activeLanguage" : null}>{language ? 'English' : 'Inglés'}</span>
                 <i.turnIcon/>
-                <span onClick={language ? turnLanguage : ''} className={language ? "" : "activeLanguage"}>{language ? 'Spanish' : 'Español'}</span>
+                <span onClick={language ? turnLanguage : null} className={language ? null : "activeLanguage"}>{language ? 'Spanish' : 'Español'}</span>
             </S.selectLanguage>
         </S.OptionBar>
     )

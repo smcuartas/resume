@@ -81,7 +81,6 @@ export const Animate3 = styled.div`
 export const Container = styled.div`
     backdrop-filter:blur(40px);
     width:100%;
-    height:100%;
     display:block;
 `
 
@@ -97,42 +96,95 @@ export const ContentRow = styled.div`
     &:not(:last-child){
         margin-bottom:62px;
     }
+
+    @media(max-width:767px){
+        &{
+            grid-template-columns:repeat(1, 1fr);
+            grid-gap:24px;
+        }
+    }
 `
 
 export const DownloadRow = styled.div`
     padding:72px;
     background:#fafafa;
     display:grid;
-    grid-template-columns:70% 1fr;
+    grid-gap:72px;
+    grid-template-columns:28% 1fr;
     margin:auto 0;
+
+    @media(max-width:767px){
+        grid-template-columns:repeat(1,1fr);
+        grid-gap:24px;
+    }
+
+    & h2{
+        margin:auto 0;
+    }
 `
 
 export const DownloadButton = styled.a`
+    width:fit-content;
     background:#7D7D7D;
     color:white;
     font-size:20px;
     padding:8px;
-    display:inline-block;
-    margin:0 8px 8px 0;
-    border-radius:4px;
     border: 10px solid #7d7d7d;
     border-image-slice: 1;
     border-width: 2px;
     transition-duration:.3s;
     cursor:pointer;
     text-align:center;
+    display:flex;
+
+    & span:last-child{
+        display:flex;
+        margin-left:8px;
+        fill:white;
+        transition-duration:.3s;
+        position:relative;
+        width:20px;
+        height:23px;
+    }
+
+    & svg{
+        width:20px;
+    }
+
+    & svg:first-child{
+        position:absolute;
+        top:0;
+    }
+
+    & svg:last-child{
+        bottom:0;
+    }
+
+    &:hover svg{
+        fill: #7d7d7d;
+    }
+
+    &:hover svg:first-child{
+        animation:toTop 1s infinite;
+    }
+
+    @keyframes toTop{
+        0%{top:0}
+        50%{top:-5px}
+        100%{top:0}
+    }
 
     &:hover{
         border-image-source: linear-gradient(90deg, #FAC0D1, #D3F2FD, #D9DDFF);
         color:#7d7d7d;
         background:transparent;
         transform:scale(1.1);
-    }
+    } 
 `
 
 export const GlobalStyle = createGlobalStyle`
     body{
-        background:#1B1919;
+        background-image:linear-gradient(to bottom, #414040, #121212);
         padding:72px;
     }
 
@@ -178,5 +230,16 @@ export const GlobalStyle = createGlobalStyle`
 
     .mb-15{
         margin-bottom:15px;
+    }
+
+    @media(max-width:767px){
+        body{
+            padding:24px;
+        }
+
+        .align-right{
+            text-align:left;
+            margin-top:16px;
+        }
     }
 `

@@ -7,6 +7,7 @@ import Social from './Components/Social/Social'
 
 import * as S from './Components/Global/global-styled'
 import OptionsBar from './Components/OptionsBar/OptionsBar'
+import * as i from './Resources/Icons/Icons'
 
 /* LANGUAGES */
 import spanish from './Languages/Spanish.json'
@@ -65,8 +66,6 @@ function App() {
           <Header 
             title='Santiago Mejía Cuartas'
             position='JR Frontend Developer'
-            mobile='(+57) 304 601 6382'
-            email='santiagomejc@gmail.com'
           />
 
           <S.Content>
@@ -75,8 +74,11 @@ function App() {
 
               <div>
                 {
-                  actualLanguage.languages.map( e => (
-                    <CardItem item={e} />
+                  actualLanguage.languages.map( (e, index) => (
+                    <CardItem
+                      key={index}
+                      item={e}
+                    />
                   ))
                 }
               </div>
@@ -86,8 +88,11 @@ function App() {
               <h2>{actualLanguage['skills-title']}</h2>
 
               <div>
-                {actualLanguage.skills.map( e => (
-                  <CardItem item={e} />
+                {actualLanguage.skills.map( (e, index) => (
+                  <CardItem
+                    key={index}
+                    item={e}
+                  />
                 ))}
               </div>
             </S.ContentRow>
@@ -106,8 +111,9 @@ function App() {
               <h2>{actualLanguage['experience-title']}</h2>
 
               <div>
-                {actualLanguage.experience.map( e => (
+                {actualLanguage.experience.map( (e, index) => (
                   <Experience
+                    key={index}
                     position={e.position}
                     company={e.company}
                     date={e.date}
@@ -122,6 +128,7 @@ function App() {
             <h2>{actualLanguage['download-text']}</h2>
             <S.DownloadButton>
               <span>{actualLanguage['download-button']}</span>
+              <span><i.downloadIcon/></span>
             </S.DownloadButton>
           </S.DownloadRow>
 
