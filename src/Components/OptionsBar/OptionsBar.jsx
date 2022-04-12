@@ -1,5 +1,5 @@
 import * as S from './styled-optionsbar'
-import * as i from '../../Resources/Icons/Icons'
+import * as i from '../Icons/Icons'
 
 function OptionsBar({language, setLanguage}){
     const turnLanguage= () => {
@@ -17,6 +17,12 @@ function OptionsBar({language, setLanguage}){
                 <i.turnIcon/>
                 <span onClick={language ? turnLanguage : null} className={language ? null : "activeLanguage"}>{language ? 'Spanish' : 'Español'}</span>
             </S.selectLanguage>
+
+            <S.ClicktoChat>
+                    <a href="https://wa.me/573046016382" target="_blank">
+                        <i.WhatsApp/>
+                    </a>        
+            </S.ClicktoChat>
         </S.OptionBar>
     )
 }

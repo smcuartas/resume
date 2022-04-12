@@ -1,8 +1,8 @@
-import * as i from '../../Resources/Icons/Icons'
+import * as i from '../Icons/Icons'
 import useSound from 'use-sound'
 
 import * as S from './styled-social'
-import bubbleSound from '../../Resources/bubble.wav'
+import bubbleSound from '../../assets/audio/bubble.wav'
 
 function Social({hoverColor, github, linkedin, instagram}){
     const [bubble] = useSound(bubbleSound, {volume:0.2})

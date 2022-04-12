@@ -21,5 +21,14 @@ export const HeaderCol = styled.div`
 
     & a{
         color:#D9DDFF;
+        transition-duration:.3s;
+    }
+
+    @media(max-width:767px){
+        margin-top:16px;
+
+        & a{
+            color:#7d7d7d;
+        }
     }
 `

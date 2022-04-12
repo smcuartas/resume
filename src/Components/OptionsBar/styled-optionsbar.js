@@ -4,10 +4,17 @@ export const OptionBar = styled.div`
     position:fixed;
     bottom:10px;
     right:10px;
+    z-index:10;
     padding:16px;
     background:white;
     border-radius:50px;
     box-shadow:0 0 15px rgba(0,0,0,.15);
+    display:flex;
+    align-items:center;
+
+    & div:not(:last-child){
+        border-right:1px solid #7d7d7d;
+    }
 `
 
 export const selectLanguage = styled.div`
@@ -36,3 +43,12 @@ export const selectLanguage = styled.div`
         color: #7d7d7d;
     }
 ` 
+
+export const ClicktoChat = styled.div`
+    margin:0 10px;
+
+    & a{
+        display:flex;
+        align-items:center;
+    }
+`
