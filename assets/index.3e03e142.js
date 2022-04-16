@@ -276,7 +276,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
 
     @media(max-width:767px){
         body{
-            padding:24px;
+            padding:16px;
         }
 
         .align-right{
@@ -296,6 +296,10 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     z-index:10;
 `,Cs=se.div`
     padding:72px;
+
+    @media(max-width:767px){
+        padding:32px;
+    }
 `,Wn=se.div`
     display:grid;
     grid-template-columns:28% 1fr;
