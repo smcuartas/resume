@@ -76,6 +76,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     
     @media(max-width:767px){
         grid-template-columns:repeat(1,1fr);
+        padding:32px;
     }
 `,q0=se.p`
     font-size:24px;
@@ -328,6 +329,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     @media(max-width:767px){
         grid-template-columns:repeat(1,1fr);
         grid-gap:24px;
+        padding:32px;
     }
 
     & h2{
