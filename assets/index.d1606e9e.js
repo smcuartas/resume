@@ -300,7 +300,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
 
     @media(max-width:767px){
         &{
-            padding:32px;
+            padding:72px 32px;
         }
     }
 `,Wn=se.div`
