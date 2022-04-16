@@ -298,7 +298,9 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     padding:72px;
 
     @media(max-width:767px){
-        padding:32px;
+        &{
+            padding:32px;
+        }
     }
 `,Wn=se.div`
     display:grid;
