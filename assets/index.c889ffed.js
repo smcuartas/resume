@@ -240,7 +240,6 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
 
     h2{
         font-size:28px;
-        font-weight:500;
         text-transform:uppercase;
     }
 
@@ -414,7 +413,6 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
         text-transform:uppercase;
         letter-spacing:2px;
         color:#414040;
-        font-weight:500;
         transition-duration:.3s;
     }
 
