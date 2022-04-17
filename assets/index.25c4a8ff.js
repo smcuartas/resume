@@ -241,6 +241,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
     h2{
         font-size:28px;
         text-transform:uppercase;
+        font-weight:normal;
     }
 
     h3{
