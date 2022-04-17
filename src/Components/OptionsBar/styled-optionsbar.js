@@ -26,21 +26,19 @@ export const selectLanguage = styled.div`
         cursor:pointer;
         text-transform:uppercase;
         letter-spacing:2px;
+        color:#414040;
+        opacity:.5;
+        transition-duration:.3s;
     }
 
     & svg{
         width:12px;
     }
 
-    & span{
-        color:#D9DDFF;
-        font-weight:500;
-        transition-duration:.3s;
-    }
-
     & .activeLanguage,
     & span:hover{
-        color: #7d7d7d;
+        color: #121212;
+        opacity:1;
     }
 ` 
 
@@ -50,5 +48,6 @@ export const ClicktoChat = styled.div`
     & a{
         display:flex;
         align-items:center;
+        opacity:1;
     }
 `

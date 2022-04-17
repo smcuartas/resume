@@ -9,6 +9,7 @@ export const Header = styled.header`
     
     @media(max-width:767px){
         grid-template-columns:repeat(1,1fr);
+        padding:72px 32px;
     }
 `
 
@@ -20,15 +21,11 @@ export const HeaderCol = styled.div`
     margin:auto 0;
 
     & a{
-        color:#D9DDFF;
+        color:#7d7d7d;
         transition-duration:.3s;
     }
 
     @media(max-width:767px){
         margin-top:16px;
-
-        & a{
-            color:#7d7d7d;
-        }
     }
 `

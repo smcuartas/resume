@@ -25,8 +25,8 @@ const GlobalStyle = createGlobalStyle`
 
     h2{
         font-size:28px;
-        font-weight:500;
         text-transform:uppercase;
+        font-weight:normal;
     }
 
     h3{
@@ -58,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
 
     @media(max-width:767px){
         body{
-            padding:24px;
+            padding:16px;
         }
 
         .align-right{

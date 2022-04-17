@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 /* Components */
 import Home from './containers/Home/Home'
@@ -13,7 +14,7 @@ function App() {
   const [language, setLanguage] = useState(true)
 
   return (
-    <>
+    <BrowserRouter basename="/resume/">
       <Home 
         es={es}
         en={en}
@@ -24,7 +25,7 @@ function App() {
         language={language}
         setLanguage={setLanguage}
       />
-    </>
+    </BrowserRouter>
   )
 }
 

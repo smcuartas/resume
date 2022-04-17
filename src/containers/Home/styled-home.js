@@ -16,6 +16,12 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     padding:72px;
+
+    @media(max-width:767px){
+        &{
+            padding:72px 32px;
+        }
+    }
 `
 
 export const ContentRow = styled.div`
@@ -46,6 +52,7 @@ export const DownloadRow = styled.div`
     @media(max-width:767px){
         grid-template-columns:repeat(1,1fr);
         grid-gap:24px;
+        padding:72px 32px;
     }
 
     & h2{
