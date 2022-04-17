@@ -413,16 +413,13 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
         cursor:pointer;
         text-transform:uppercase;
         letter-spacing:2px;
+        color:#7d7d7d;
+        font-weight:500;
+        transition-duration:.3s;
     }
 
     & svg{
         width:12px;
-    }
-
-    & span{
-        color:#7d7d7d;
-        font-weight:500;
-        transition-duration:.3s;
     }
 
     & .activeLanguage,
