@@ -83,6 +83,11 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
 `,ks=se.div`
     margin:auto 0;
 
+    & a{
+        color:#7d7d7d;
+        transition-duration:.3s;
+    }
+
     @media(max-width:767px){
         margin-top:16px;
     }
