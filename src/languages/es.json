@@ -1,47 +1,82 @@
 {
-    "mobile" : "Teléfono",
-    "languages-title" : "Idiomas",
-    "languages" : ["Inglés - Básico (Escucha/Habla)", "Inglés - Medio (Escrito/Lectura)", "Español - Nativo"],
-    "skills-title" : "Habilidades",
-    "skills" : ["HTML5", "CSS3", "JavaScript", "ReactJS", "Styled Components", "Responsive", "WordPress", "Elementor", "Crocoblock Suite", "Figma", "Adobe Illustrator", "Adobe Photoshop"],
-    "about-title" : "Sobre mi",
-    "about-me" : "¡Hola! Soy activo, responsable y muy apasionado por el diseño desde que era pequeño, por esto siempre mantengo mis ojos en los pequeños detalles. He trabajado con Wordpress por más de 3 años realizando sitios adaptables utilizando editores visuales como Elementor, WPBakery y Gutemberg. He creado algunos shortcodes y he modificado pequeñas cosas de las plantillas, pero ahora estoy iniciando con ReactJS.",
-    "about-me-2" : "Me gusta ilustrar, los videojuegos MMORPG, la música y los tatuajes. También dedico mi tiempo libre al estudio.",
-    "experience-title" : "Experiencia",
-    "experience" : [
-        {
-          "id" : "exp1",  
-          "position" : "Diseñador Web & UI Dev",
-          "company" : "@Freelance",
-          "date" : "Enero 2017 - Actualidad",
-          "description" : "Diseño y desarrollo de interfaces usando WordPress, CSS y JavaScript."
-        },
-      
-        {
-          "id" : "exp2",
-          "position" : "Diseñador Web & UI Dev",
-          "company" : "@LWA Marketing Digital",
-          "date" : "Enero 2019 - Diciembre 2020",
-          "description" : "Diseño y desarollo de interfaces usando WordPress, CSS grid/flex, JavaScript y PHP (básico). Realicé ajustes a sitios web como Colanta, Argos, Mayorca Centro Comercial, Flamingo, entre otros."
-        },
-      
-        {
-          "id" : "exp3",
-          "position" : "Diseñador Web",
-          "company" : "@Interficto",
-          "date" : "Julio 2018 - Octubre 2018",
-          "description" : "Desarrollo de sitios web usando WordPress, CSS y Javascript. Realicé sitios e-commerce usando WooCommerce, y migraciones con cPanel y WHM."
-        },
-      
-        {
-          "id" : "exp4",
-          "position" : "Productor de Multimedia",
-          "company" : "@SENA",
-          "date" : "Diciembre 2017 - Junio 2018",
-          "description" : "Soporte frontend en proyectos. Diseño y desarrollo de sitios con HTML, CSS, jQuery, PHP y algunas librerías como Semantic UI. Diseño de personajes y animaciones básicas con Toonboom, Adobe Illustrator y Photoshop."
-        }
-    ],
-    "download-text" : "Descargas",
-    "download-button": "Resumen en PDF",
-    "social-title" : "Social" 
+  "mobile": "Teléfono",
+  "languages-title": "Idiomas",
+  "languages": [
+    "Inglés - Básico (Escucha/Habla)",
+    "Inglés - Medio (Escrito/Lectura)",
+    "Español - Nativo"
+  ],
+  "skills-title": "Habilidades",
+  "skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "ReactJS",
+    "Styled Components",
+    "Responsive",
+    "WordPress",
+    "Elementor",
+    "Crocoblock Suite",
+    "Figma",
+    "Adobe Illustrator",
+    "Adobe Photoshop"
+  ],
+  "about-title": "Sobre mi",
+  "about-me": "¡Hola! Soy activo, responsable y muy apasionado por el diseño desde que era pequeño, por esto siempre mantengo mis ojos en los pequeños detalles. He trabajado con Wordpress por más de 3 años realizando sitios adaptables utilizando editores visuales como Elementor, WPBakery y Gutemberg. He creado algunos shortcodes y he modificado pequeñas cosas de las plantillas, pero ahora estoy iniciando con ReactJS.",
+  "about-me-2": "Me gusta ilustrar, los videojuegos MMORPG, la música y los tatuajes. También dedico mi tiempo libre al estudio.",
+  "experience-title": "Experiencia",
+  "experience": [
+    {
+      "id": "exp1",
+      "position": "Diseñador Web & UI Dev",
+      "company": "@Freelance",
+      "date": "Enero 2017 - Actualidad",
+      "description": "Diseño y desarrollo de interfaces usando WordPress, CSS y JavaScript."
+    },
+
+    {
+      "id": "exp2",
+      "position": "Diseñador Web & UI Dev",
+      "company": "@LWA Marketing Digital",
+      "date": "Enero 2019 - Diciembre 2020",
+      "description": "Diseño y desarollo de interfaces usando WordPress, CSS grid/flex, JavaScript y PHP (básico). Realicé ajustes a sitios web como Colanta, Argos, Mayorca Centro Comercial, Flamingo, entre otros."
+    },
+
+    {
+      "id": "exp3",
+      "position": "Diseñador Web",
+      "company": "@Interficto",
+      "date": "Julio 2018 - Octubre 2018",
+      "description": "Desarrollo de sitios web usando WordPress, CSS y Javascript. Realicé sitios e-commerce usando WooCommerce, y migraciones con cPanel y WHM."
+    },
+
+    {
+      "id": "exp4",
+      "position": "Productor de Multimedia",
+      "company": "@SENA",
+      "date": "Diciembre 2017 - Junio 2018",
+      "description": "Soporte frontend en proyectos. Diseño y desarrollo de sitios con HTML, CSS, jQuery, PHP y algunas librerías como Semantic UI. Diseño de personajes y animaciones básicas con Toonboom, Adobe Illustrator y Photoshop."
+    }
+  ],
+  "projects-title": "Proyectos personales",
+  "personalProjects": [
+    {
+      "title": "Citas veterinarias",
+      "status": true,
+      "repo": "https://github.com/smcuartas/citas-react",
+      "ghpages": "https://smcuartas.github.io/citas-react/",
+      "pos": 1
+    },
+
+    {
+      "title": "Control de gastos",
+      "status": false,
+      "repo": "#",
+      "ghpages": "#",
+      "pos": 2
+    }
+  ],
+  "download-text": "Descargas",
+  "download-button": "Resumen en PDF",
+  "social-title": "Social"
 }
