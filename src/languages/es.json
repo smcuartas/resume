@@ -71,16 +71,16 @@
     {
       "title": "Citas veterinarias",
       "status": true,
-      "repo": "https://github.com/smcuartas/citas-react",
-      "ghpages": "https://smcuartas.github.io/citas-react/",
+      "repo": "https://github.com/smcuartas/vet-appointments/",
+      "ghpages": "https://smcuartas.github.io/vet-appointments/",
       "pos": 1
     },
 
     {
       "title": "Control de gastos",
       "status": false,
-      "repo": "#",
-      "ghpages": "#",
+      "repo": "https://github.com/smcuartas/expenses-controller/",
+      "ghpages": "https://smcuartas.github.io/expenses-controller/",
       "pos": 2
     }
   ],
