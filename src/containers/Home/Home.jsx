@@ -46,7 +46,14 @@ function Home({ language, en, es }) {
               <h2>{actualLanguage['skills-title']}</h2>
 
               <div>
+                <S.Subtitle>{language ? 'Hard' : 'Duras'}</S.Subtitle>
                 {actualLanguage.skills.map((e, index) => (
+                  <Item key={index} item={e} />
+                ))}
+                <S.Subtitle className="spacing-top">
+                  {language ? 'Soft' : 'Blandas'}
+                </S.Subtitle>
+                {actualLanguage.soft.map((e, index) => (
                   <Item key={index} item={e} />
                 ))}
               </div>

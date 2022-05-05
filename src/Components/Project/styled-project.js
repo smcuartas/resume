@@ -37,7 +37,28 @@ export const ProjectContent = styled.div`
     backdrop-filter: blur(3px);
   }
 
-  svg {
+  .viewmore {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+    border: 2px solid transparent;
+  }
+
+  .viewmore .background {
+    fill: #7d7d7d;
+  }
+
+  .viewmore path:not(.background) {
+    stroke: white;
+  }
+
+  .viewmore:hover .line {
+    stroke: #fac0d1;
+  }
+
+  svg:not(.viewmore) {
     width: 30px;
     height: 30px;
     fill: #7d7d7d;
@@ -55,13 +76,12 @@ export const ProjectContent = styled.div`
     transition-duration: 0.3s;
   }
 
-  svg:hover path,
-  svg:hover .arrow {
+  svg:hover:not(.viewmore) path {
     fill: #fac0d1;
   }
 
-  svg:hover .background,
-  svg:hover {
+  svg:hover,
+  .viewmore:hover .background {
     fill: transparent;
     border-radius: 0;
     border-image-slice: 1;

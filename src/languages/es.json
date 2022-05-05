@@ -21,6 +21,14 @@
     "Adobe Illustrator",
     "Adobe Photoshop"
   ],
+  "soft": [
+    "Comunicación",
+    "Trabajo en equipo",
+    "Gestión de tiempo",
+    "Empatía",
+    "Dedicación",
+    "Puntualidad"
+  ],
   "about-title": "Sobre mi",
   "about-me": "¡Hola! Soy activo, responsable y muy apasionado por el diseño desde que era pequeño, por esto siempre mantengo mis ojos en los pequeños detalles. He trabajado con Wordpress por más de 3 años realizando sitios adaptables utilizando editores visuales como Elementor, WPBakery y Gutemberg. He creado algunos shortcodes y he modificado pequeñas cosas de las plantillas, pero ahora estoy iniciando con ReactJS.",
   "about-me-2": "Me gusta ilustrar, los videojuegos MMORPG, la música y los tatuajes. También dedico mi tiempo libre al estudio.",

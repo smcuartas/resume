@@ -11,7 +11,7 @@ function Project({ title, status, repo, ghp, pos, language }) {
     <S.ProjectContainer pos={pos}>
       <S.ProjectContent>
         <a href={ghp} target="_blank" onMouseEnter={bubble}>
-          <i.HtmlPage />
+          <i.ViewMore />
         </a>
 
         <a href={repo} target="_blank" onMouseEnter={bubble}>

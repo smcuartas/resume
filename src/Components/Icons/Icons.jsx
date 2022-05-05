@@ -81,15 +81,28 @@ export const WhatsApp = () => {
   )
 }
 
-export const HtmlPage = () => {
+export const ViewMore = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54">
-      <path className="background" d="M1 1h52v52H1z" />
-      <path className="background" d="M54 54H0V0h54v54zM2 52h50V2H2v50z" />
+    <svg
+      className="viewmore"
+      width="30"
+      height="30"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path className="background" fill="#000" d="M0 0h30v30H0z" />
       <path
-        className="arrow"
-        fill="white"
-        d="M19 45a.999.999 0 0 1-.707-1.707L34.586 27 18.293 10.707a.999.999 0 1 1 1.414-1.414L37.414 27 19.707 44.707A.997.997 0 0 1 19 45z"
+        className="line"
+        d="M14.984 9c-3.479 0-7.048 2.021-9.858 6.063a.718.718 0 0 0-.012.796c2.16 3.392 5.68 6.044 9.87 6.044 4.145 0 7.739-2.66 9.901-6.06a.725.725 0 0 0 0-.782C22.718 11.7 19.098 9 14.985 9Z"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        className="line"
+        d="M15 19a3.548 3.548 0 1 0 0-7.097A3.548 3.548 0 0 0 15 19Z"
+        stroke-width="2"
+        stroke-miterlimit="10"
       />
     </svg>
   )
