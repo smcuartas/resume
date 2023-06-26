@@ -1,0 +1,115 @@
+{
+  "header": {
+    "label": "Santiago Mejía Cuartas",
+    "position": "JR Frontend Developer",
+    "mobile": "Mobile",
+    "phone": "(+57) 304 601 6382",
+    "phone-url": "+573046016382",
+    "email-label": "Email",
+    "email": "santiagomejc@gmail.com"
+  },
+  "languages": {
+    "label": "Languages",
+    "languages": [
+      "English - Basic (Listening/Speaking)",
+      "English - Medium (Written/Reading)",
+      "Spanish - Native"
+    ]
+  },
+  "skills": {
+    "label": "Skills",
+    "hard-label": "Hard",
+    "soft-label": "Soft",
+    "aditional-label": "Aditional skills",
+    "skills": {
+      "hard": [
+        "CSS3",
+        "HTML5",
+        "JavaScript",
+        "Material UI",
+        "NextJS",
+        "ReactJS",
+        "Responsive",
+        "StoryBook",
+        "Styled Components",
+        "TypeScript"
+      ],
+      "soft": [
+        "Communication",
+        "Dedication",
+        "Empathy",
+        "Fast learning",
+        "Puntuality",
+        "Teamwork",
+        "Time management"
+      ],
+      "aditional": [
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Crocoblock Suite",
+        "Elementor",
+        "Figma",
+        "WordPress"
+      ]
+    }
+  },
+  "about-me": {
+    "label": "About me",
+    "professional-label": "Professional",
+    "personal-label": "Personal",
+    "text": {
+      "profesional": "Hello 👋 I am a passionate programming professional with 1 year of experience in web application development using technologies like ReactJS, NextJS, TypeScript and Storybook. Also, I have 5 years of experience working with WordPress, which has allowed me to acquire skills in creating and managing websites and online stores. I consider myself a proactive individual with the ability to work in a team. I have an strong passion for continuous learning and improving my skills in the field of web development.",
+      "personal": "I'm a man who loves illustrating, MMORPG videogames, music, tattoos and challenges. Actually resident in Medellín, Colombia. Also I spend my free time studying."
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "experience": [
+      {
+        "position": "Web Designer & UI Dev",
+        "company": "@Freelance",
+        "date": "January 2017 - Present",
+        "description": "Design & UI development using WordPress templates, CSS and JavaScript."
+      },
+
+      {
+        "position": "UX Developer",
+        "company": "@Making Sense",
+        "date": "June 2021 - June 2022",
+        "description": "Component development using NextJS, Material UI and TypeScript. Component documentation with StoryBook and component testing with Jest. Also, I've worked on a Slack bot using Bolt JS."
+      },
+
+      {
+        "position": "Web Designer & UI Dev",
+        "company": "@LWA Marketing Digital",
+        "date": "January 2019 - December 2020",
+        "description": "Design & UI development using WordPress templates, grid/flex CSS, JavaScript and PHP (basic). I've made adjustements to websites like Colanta, Argos, Mayorca Mall Center, Flamingo, and other ones."
+      },
+
+      {
+        "position": "Web Designer",
+        "company": "@Interficto",
+        "date": "July 2018 - October 2018",
+        "description": "Website developments using WordPress templates, CSS and JavaScript. I’ve made e-commerce websites using WooCommerce, and migrations with cPanel and WHM."
+      },
+
+      {
+        "position": "Multimedia Producer",
+        "company": "@SENA",
+        "date": "December 2017 - June 2018",
+        "description": "Frontend support in projects. Design & development on websites with HTML, CSS, jQuery, PHP and some libraries like Semantic UI. Character design and basic animations with Toonboom, Adobe Illustrator and Photoshop."
+      }
+    ]
+  },
+  "downloads": {
+    "label": "Downloads & Social",
+    "button-en": "Resume in PDF (en)",
+    "button-es": "Resume in PDF (es)",
+    "social": {
+      "linkedin": "Linkedin",
+      "linkedin-url": "https://www.linkedin.com/in/santiago-mejia-cuartas/",
+      "github": "Github",
+      "github-url": "https://github.com/smcuartas"
+    }
+  }
+}
